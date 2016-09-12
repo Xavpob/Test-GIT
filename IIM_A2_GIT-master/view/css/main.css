@@ -1,5 +1,9 @@
 body {
+<<<<<<< HEAD
+	background-color: #86592d;
+=======
 	background-color: black;
+>>>>>>> 326097ccf48bbac6f47faf2beba1b0ab6070b1b5
 }
 
 input:focus {
