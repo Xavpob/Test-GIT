@@ -1,9 +1,5 @@
 body {
-<<<<<<< HEAD
 	background-color: #86592d;
-=======
-	background-color: black;
->>>>>>> 326097ccf48bbac6f47faf2beba1b0ab6070b1b5
 }
 
 input:focus {
@@ -16,12 +12,12 @@ input:focus {
 
 #logbox {
 	padding: 40px;
-	background-color: #fff;
+	background-color: black;
 	color: #fff;
 }
 
 #logbox.register {
-	background-color: black;
+	background-color: ;
 }
 
 #logbox h1 {
