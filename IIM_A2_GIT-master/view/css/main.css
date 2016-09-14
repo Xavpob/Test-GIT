@@ -97,7 +97,7 @@ input:focus {
 }
 
 #logbox.register .form-submit input[type="submit"] {
-	background-color: #f50;
+	background-color: #67d8e0;
 }
 
 #logbox .form-submit input[type="submit"]:active {
