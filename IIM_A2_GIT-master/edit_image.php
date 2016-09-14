@@ -21,7 +21,7 @@ if(isset($_FILES['image']) && !empty($_FILES['image'])){
 			$register_picture = updateProfilPicture($db, $nom, $_SESSION['id']);
 			header('Location: dashboard.php');
 		} else {
-			echo 'Erreur, le fichier n\'est pas une image !';
+			echo 'Error, the file is not an image !';
 		}
 	}
 }
