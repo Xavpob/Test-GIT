@@ -14,7 +14,7 @@ if(isset($_GET) && !empty($_GET)){
 		header('Location: dashboard.php');
 	}
 	else{
-		echo 'Vous n\'avez pas les droits pour effectuer cette action !';
+		echo 'You do not have permission to perform this action !';
 	}
 
 }
