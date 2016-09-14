@@ -1,4 +1,4 @@
-<div class="row" style="background-color: #333;margin:0">
+<div class="row" style="background-color: #04705d;margin:0">
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 		<div id="topbar" class="clearfix">
 			<div class="container">
