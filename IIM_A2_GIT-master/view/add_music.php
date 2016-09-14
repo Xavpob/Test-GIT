@@ -23,7 +23,7 @@
 										<input type="text" name="title" class="form-control">
 									</div>
 									<div class="form-group">
-										<label for="file">Musique</label>
+										<label for="file">Music</label>
 										<input type="file" name="music">
 										<p>
 											permitted extensions  : .mp3, .ogg
