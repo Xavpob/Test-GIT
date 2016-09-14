@@ -9,6 +9,6 @@ if(	isset($_POST['username']) && isset($_POST['email']) && isset($_POST['passwor
 	// TODO
 
 }else{ 
-	$_SESSION['message'] = 'Erreur : Formulaire incomplet';
+	$_SESSION['message'] = 'Error : incomplete forms !';
 	header('Location: register.php');
 }
