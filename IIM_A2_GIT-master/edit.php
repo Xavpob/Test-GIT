@@ -18,11 +18,11 @@ if(isset($_POST) && !empty($_POST)){
 			header('Location: dashboard.php');
 		}
 		else{
-			$error = 'La musique ne vous appartient pas!';
+			$error = 'The music is not yours !';
 		}
 	}
 	else{
-		$error = 'Formulaire incomplet';
+		$error = 'Incomplete forms !';
 	}
 }
 
