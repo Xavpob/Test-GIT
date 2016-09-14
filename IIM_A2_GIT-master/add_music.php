@@ -18,7 +18,7 @@ if( isset($_FILES['music']) && !empty($_FILES['music']) &&
 			// TODO
 
 		} else {
-			$error = 'Erreur, le fichier n\'a pas une extension autorisée !';
+			$error = 'Error, the file is not an authorized extension!';
 		}
 	// }
 }
