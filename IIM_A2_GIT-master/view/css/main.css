@@ -12,7 +12,7 @@ input:focus {
 
 #logbox {
 	padding: 40px;
-	background-color: black;
+	background-color: #04705d;
 	color: #fff;
 }
 
@@ -40,14 +40,14 @@ input:focus {
 	width: 100%;
 	border: transparent;
 	padding: 10px 0 10px 40px;
-	background-color: rgba(255,255,255,.2);
+	background-color: #47a08a;
 	color: white;
 	font-size: 12px;
 	text-transform: uppercase;
 }
 
 #logbox .form-input input:focus {
-	background-color: rgba(255,255,255,.5);
+	background-color: #63bba4;
 	transition:all 0.3s linear;
 }
 
@@ -92,7 +92,7 @@ input:focus {
 	width: 100%;
 	font-size: 11px;
 	text-transform: uppercase;
-	background-color: #f50;
+	background-color: #67d8e0;
 	padding: 10px;
 }
 
