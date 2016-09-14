@@ -35,7 +35,7 @@
 										} ?>
 										</ul>
 									</div>
-									<b class="username">Posté par <?php echo $music['username']; ?></b>
+									<b class="username">Posted by <?php echo $music['username']; ?></b>
 									<h3 class="title">
 										<?php echo $music['title']; ?>
 									</h3>
