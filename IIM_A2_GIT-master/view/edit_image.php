@@ -4,7 +4,7 @@
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<div id="musicfeed">
-					<h1><i class="fa fa-pencil"></i> Editer votre image de profil</h1>
+					<h1><i class="fa fa-pencil"></i> Edit your profile image </h1>
 					<div class="block animated fadeInDown">
 						<div class="row">
 							<div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
@@ -33,11 +33,11 @@
 								<b class="username"><?php echo $_SESSION['username']; ?></b>
 								<p>
 									<br>
-									Extensions autorisées : .jpg, .png et .gif
+									Allowed extensions : .jpg, .png et .gif
 								</p>
 								<form action="edit_image.php" method="POST" enctype="multipart/form-data">
 									<input type="file" name="image">
-									<p class="clearfix"><button type="submit" class="valid pull-right"><i class="fa fa-check"></i> Valider</button></p>
+									<p class="clearfix"><button type="submit" class="valid pull-right"><i class="fa fa-check"></i> Validate</button></p>
 								</form>
 
 							</div>
