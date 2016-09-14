@@ -34,7 +34,6 @@
                     WHERE username 
                     LIKE :username AND password = :password"
                 ); 
-                die('test');
                 $request->execute(array("username"=> $username,"password"=> $password));
             
                 $users = $request->fetchALL(); 
@@ -43,7 +42,7 @@
                     $id_user = $users[0]["id"]; 
                 
                     $_SESSION["id_user"] = $id_user; 
-                    header('Location:IIM_A2_GIT-master/dashboard.php');
+                    header('Location:dashboard.php');
                 }
             
             else{ 
