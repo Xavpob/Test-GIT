@@ -1,5 +1,5 @@
 body {
-	background-color: #86592d;
+	background-color: #7fd8c0;
 }
 
 input:focus {
@@ -14,10 +14,6 @@ input:focus {
 	padding: 40px;
 	background-color: #04705d;
 	color: #fff;
-}
-
-#logbox.register {
-	background-color: ;
 }
 
 #logbox h1 {
@@ -113,7 +109,7 @@ input:focus {
 }
 
 #success {
-	color: #2ecc71;
+	color: #7fd8c0;
 }
 
 #error {
@@ -134,7 +130,7 @@ input:focus {
 }
 
 p.account {
-	color: rgba(255,255,255,.7)
+	color: rgba(255,255,255,.7);
 }
 
 p.account a {
@@ -169,8 +165,8 @@ p.account a {
 
 #topbar a.btn {
 	border: none;
-	background-color: #f50;
-	border: solid 1px #F50;
+	background-color: #67d8e0;
+	border: solid 1px #48bdc4;
 	float: right;
 	line-height: 25px;
 	color:white;
@@ -182,9 +178,9 @@ p.account a {
 }
 
 #topbar a.btn:hover {
-	background-color: #fff;
-	color: #F50;
-	border: solid 1px #F50;
+	background-color: #ccffff;
+	color: #48bdc4;
+	border: solid 1px #a3ffff;
 	text-decoration: none;
 }
 
