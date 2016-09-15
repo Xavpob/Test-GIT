@@ -17,6 +17,14 @@ if(isset($_POST['email']) && isset($_POST['password'])){
      $email = htmlspecialchars($_POST["email"]);
      $password = htmlspecialchars($_POST["password"]);
 
+     $request = $db->prepare("
+      SELECT id
+      FROM users 
+      WHERE email = :email AND password = :password"
+    );
+
+      $request->execute(array("email" => $email, "password" => $password));
+
   }
 }
 
