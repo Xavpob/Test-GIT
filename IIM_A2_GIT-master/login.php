@@ -25,6 +25,14 @@ if(isset($_POST['email']) && isset($_POST['password'])){
 
       $request->execute(array("email" => $email, "password" => $password));
 
+      $members = $request->fetchALL(); 
+  
+      if (sizeof($members)>0){
+        $id_user = $members[0]["id"]; 
+        $_SESSION["id_user"] = $id_user;
+        header('Location: dashboard.php');
+        } 
+
   }
 }
 
