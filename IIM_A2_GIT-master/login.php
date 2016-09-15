@@ -31,8 +31,11 @@ if(isset($_POST['email']) && isset($_POST['password'])){
         $id_user = $members[0]["id"]; 
         $_SESSION["id_user"] = $id_user;
         header('Location: dashboard.php');
-        } 
-
+       }else{
+        $error = "Error : Erreur dans le pseudo/mot de passe"; 
+      }
+  }else{ 
+    $error = 'Required fields !'; 
   }
 }
 
