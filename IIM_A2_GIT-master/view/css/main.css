@@ -214,11 +214,11 @@ p.account a {
 }
 
 .music.playing {
-	border: solid 1px #f50;
+	border: solid 1px #67d8e0;
 }
 
 .music.playing h3{
-	color: #f50;
+	color: #67d8e0;
 	font-weight: bold;
 }
 
