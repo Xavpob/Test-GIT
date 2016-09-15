@@ -8,7 +8,7 @@ if( isset($_FILES['music']) && !empty($_FILES['music']) &&
 	
 	$file = $_FILES['music'];
 	$title = $_POST['title'];
-	$user_id = htmlspecialchars($_POST["username"]);
+	$user_id = htmlspecialchars($_POST["id"]);
 
 	// Si le "fichier" reçu est bien un fichier
 		$ext = strtolower(substr(strrchr($file['name'], '.')  ,1));
