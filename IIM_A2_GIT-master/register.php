@@ -39,9 +39,9 @@
                 $users = $request->fetchALL(); 
             
                 if (sizeof($users)>0){
-                    $id_user = $users[0]["id"]; 
+                    $user_id = $users[0]["id"]; 
                 
-                    $_SESSION["id_user"] = $id_user; 
+                    $_SESSION["user_id"] = $user_id; 
                     header('Location:dashboard.php');
                 }
             
