@@ -25,6 +25,14 @@ input:focus {
 	letter-spacing: 1px;
 
 }
+.footer {
+	padding-top: 30px;
+	padding-bottom: 40px;
+	margin-top: 40px;
+	color: white;
+	text-align: center;
+	background-color: #04705d;
+}
 
 #logbox .form-input,
 #logbox .form-submit {
@@ -267,7 +275,7 @@ p.account a {
 	border: none;
 	padding: 10px 20px;
 	color: white;
-	background-color: #2ecc71;
+	background-color: #04705d;
 }
 
 .image:before {
@@ -375,7 +383,7 @@ p.account a {
 }
 
 .audiojs .scrubber {
-	background: none repeat scroll 0 0 #5A5A5A;
+	background: none repeat scroll 0 0 #7fd8c0;
 	border-bottom: 0 none;
 	border-left: 0 none;
 	border-top: 1px solid #3F3F3F;
@@ -388,12 +396,12 @@ p.account a {
 }
 
 .audiojs .scrubber .progress{
-	background: #F50;
+	background: #48bdc4;
 	border-radius: 0;
 }
 
 .audiojs .scrubber .loaded{
-	background: #444;
+	background: #a3ffff;
 }
 
 .audiojs .time {}
@@ -402,7 +410,7 @@ p.account a {
 	width:40px;
 }
 .audiojs {
-	background: #333;
+	background: #04705d;
 	position: fixed;
 	bottom: 0;
 	width: 100%;

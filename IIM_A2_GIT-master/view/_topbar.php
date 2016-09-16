@@ -9,7 +9,7 @@
 					<div class="col-xs-10 col-sm-10 col-md-11 col-lg-11">
 						<a href="logout.php" class="btn">Logout</a>
 						<a href="contact.php" class="btn">Contact</a>
-						<a href="edit_image.php" class="btn">Profil</a>
+						<a href="edit_image.php" class="btn">My music</a>
 						<a href="add_music.php" class="btn"><i class="fa fa-plus"></i> Add a music</a>
 						<a href="dashboard.php" class="btn">Home</a>
 					</div>
