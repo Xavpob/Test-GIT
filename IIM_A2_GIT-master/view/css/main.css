@@ -25,6 +25,14 @@ input:focus {
 	letter-spacing: 1px;
 
 }
+.footer {
+	padding-top: 30px;
+	padding-bottom: 40px;
+	margin-top: 40px;
+	color: white;
+	text-align: center;
+	background-color: #04705d;
+}
 
 #logbox .form-input,
 #logbox .form-submit {
