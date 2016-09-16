@@ -14,25 +14,7 @@ if( isset($_FILES['music']) && !empty($_FILES['music']) &&
 			$filename = md5(uniqid(rand(), true));
 			$destination = "musics/{$filename}.{$_SESSION['id']}.{$ext}";
 
-			function addMusic(PDO $db, $user_id, $title, $file){
-		$sql = "
-			INSERT INTO
-				musics
-			SET
-				user_id = :user_id,
-				title = :title,
-				file = :file
-		";
-
-		$req = $db->prepare($sql);
-		$req->execute(array(
-			':user_id' => $user_id,
-			':title' => $title,
-			':file' => $file,
-		));
-
-		return true;
-	}
+			addMusic($db, $user_id, $title, $file);
 
 
 		} else {
