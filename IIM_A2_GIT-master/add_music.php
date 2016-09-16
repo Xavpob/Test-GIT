@@ -8,16 +8,14 @@ if( isset($_FILES['music']) && !empty($_FILES['music']) &&
 	
 	$file = $_FILES['music'];
 	$title = $_POST['title'];
-	//$user_id = $_SESSION["id"];
+	$user_id = $_SESSION["user_id"];
 
 	// Si le "fichier" reçu est bien un fichier
 		$ext = strtolower(substr(strrchr($file['name'], '.')  ,1));
 		// Vérification des extentions
 		if (preg_match('/\.(mp3|ogg)$/i', $file['name'])) {
 			$filename = md5(uniqid(rand(), true));
-			$destination = "musics/{$filename}.{$_SESSION['id']}.{$ext}";
-
-			//debut
+			$destination = "musics/{$filename}.{$_SESSION['user_id']}.{$ext}";
 
 			$request = $db->prepare("
                     INSERT INTO musics (id, user_id, title, file, created_at) VALUES ('', :user_id, :title, :file, NOW())"
