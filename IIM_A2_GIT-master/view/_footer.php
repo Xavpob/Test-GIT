@@ -35,10 +35,11 @@
 	</script>
 	<?php } ?>
 	<footer class="footer">
-	<div class="container">
-		<h3>By Vincent BALLERIN, Xaverine POBELLE and Axel GUILLAUME</h3>
-	</div>
+		<div class="container">
+			<h3>By Vincent BALLERIN, Xaverine POBELLE and Axel GUILLAUME</h3>
+		</div>
 	</footer>
+	<div class="clearfix"></div>
 
-</body>
+	</body>
 </html>
