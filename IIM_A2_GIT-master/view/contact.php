@@ -4,7 +4,7 @@
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 			<table width="500" border="0" align="center" cellpadding="0" cellspacing="0">
-				<form action="envoi.php" method="post" enctype="application/x-www-form-urlencoded" name="formulaire">
+				<form action="envoie.php" method="post" enctype="application/x-www-form-urlencoded" name="formulaire">
 				<tr> 
 				<td colspan="3"><strong>Envoyer un message</strong></td>
 				</tr>
