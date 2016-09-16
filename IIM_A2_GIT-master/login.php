@@ -28,8 +28,8 @@ if(isset($_POST['email']) && isset($_POST['password'])){
       $members = $request->fetchALL(); 
   
       if (sizeof($members)>0){
-        $id_user = $members[0]["id"]; 
-        $_SESSION["id_user"] = $id_user;
+        $user_id = $members[0]["id"];
+        $_SESSION["user_id"] = $user_id;
         header('Location: dashboard.php');
        }else{
         $error = "Error : Erreur dans le pseudo/mot de passe"; 
