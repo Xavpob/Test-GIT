@@ -1,12 +1,6 @@
-*{
-	margin:0;
-	padding:0;
-}
-
-body, html{height:100%;}
-
 body {
 	background-color: #7fd8c0;
+	padding-bot: 150px;
 }
 
 input:focus {
@@ -16,7 +10,16 @@ input:focus {
 .mgtop20 {
 	margin-top: 20px;
 }
-
+.footer {
+	padding-top: 40px;
+	padding-bottom:40px;
+	position: fixed;
+	width:100%;
+	bottom:0px;
+	color: white;
+	text-align: center;
+	background-color: #04705d;
+}
 #logbox {
 	padding: 40px;
 	background-color: #04705d;
@@ -33,12 +36,9 @@ input:focus {
 
 }
 .footer {
-	marging-top: 30px;
 	padding-top: 30px;
-	padding-bottom: 50px;
-	width:100%;
+	padding-bottom: 40px;
 	margin-top: 40px;
-	bottom:0;
 	color: white;
 	text-align: center;
 	background-color: #04705d;
@@ -401,7 +401,7 @@ p.account a {
 	height: 14px;
 	margin: 10px;
 	overflow: hidden;
-	position: absolute;
+	position: relative;
 	width: 88%;
 }
 

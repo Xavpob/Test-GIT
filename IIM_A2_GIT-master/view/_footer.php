@@ -4,7 +4,11 @@
 	<script src="view/js/libs/midway.min.js"></script>
 
 	<script src="view/js/main.js"></script>
-
+	<footer class="footer">
+		<div class="container">
+			<h3>By Vincent BALLERIN, Xaverine POBELLE and Axel GUILLAUME</h3>
+		</div>
+	</footer>
 	<?php if(basename($_SERVER['PHP_SELF']) == 'dashboard.php'){ ?>
 	<audio preload></audio>
 
@@ -34,11 +38,7 @@
 		});
 	</script>
 	<?php } ?>
-	<footer class="footer">
-		<div class="container">
-			<h3>By Vincent BALLERIN, Xaverine POBELLE and Axel GUILLAUME</h3>
-		</div>
-	</footer>
+
 
 	</body>
 </html>
