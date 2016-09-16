@@ -7,9 +7,6 @@ if( isset($_FILES['music']) && !empty($_FILES['music']) &&
 	isset($_POST['title']) && !empty($_POST['title'])){
 	
 	$file = $_FILES['music'];
-	$title = $_POST['title'];
-	$user_id = htmlspecialchars($_POST["id"]);
-
 	// Si le "fichier" reçu est bien un fichier
 		$ext = strtolower(substr(strrchr($file['name'], '.')  ,1));
 		// Vérification des extentions
@@ -17,19 +14,26 @@ if( isset($_FILES['music']) && !empty($_FILES['music']) &&
 			$filename = md5(uniqid(rand(), true));
 			$destination = "musics/{$filename}.{$_SESSION['id']}.{$ext}";
 
-			//debut
+			function addMusic(PDO $db, $user_id, $title, $file){
+		$sql = "
+			INSERT INTO
+				musics
+			SET
+				user_id = :user_id,
+				title = :title,
+				file = :file
+		";
 
-			$request = $db->prepare("
-                    INSERT INTO musics(id, user_id, title, file, created_at) VALUES ('', :user_id, :title, :file, NOW())"
-                );
-                
-                $request->execute([
-                    ':user_id' => $user_id,
-                    ':title' => $title,
-                    ':file' => $file,
-                ]);
+		$req = $db->prepare($sql);
+		$req->execute(array(
+			':user_id' => $user_id,
+			':title' => $title,
+			':file' => $file,
+		));
 
-            //fin
+		return true;
+	}
+
 
 		} else {
 			$error = 'Error, the file is not an authorized extension!';
