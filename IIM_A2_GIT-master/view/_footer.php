@@ -34,6 +34,11 @@
 		});
 	</script>
 	<?php } ?>
+	<footer class="footer">
+	<div class="container">
+		<h3>By Vincent BALLERIN, Xaverine POBELLE and Axel GUILLAUME</h3>
+	</div>
+	</footer>
 
 </body>
 </html>
